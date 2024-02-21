@@ -13,4 +13,4 @@ sleep 10
 mc alias set minio http://localhost:9000 minioadmin minioadmin
 
 # Create the bucket
-mc mb minio/my-bucket
+mc mb minio/my-bucket --ignore-existing
